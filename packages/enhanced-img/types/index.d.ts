@@ -13,3 +13,5 @@ declare module 'svelte/elements' {
 }
 
 export function enhancedImages(): Promise<Plugin[]>;
+
+export type { Picture } from 'vite-imagetools';
