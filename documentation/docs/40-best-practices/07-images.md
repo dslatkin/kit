@@ -140,6 +140,11 @@ By default, enhanced images will be transformed to more efficient formats. Howev
 <enhanced:img src="./path/to/your/image.jpg?blur=15" alt="An alt text" />
 ```
 
+### Passing images as props to components
+
+It's possible to pass images imported with the `?enhanced` query param as
+props to components. 
+
 [See the imagetools repo for the full list of directives](https://github.com/JonasKruckenberg/imagetools/blob/main/docs/directives.md).
 
 ## Loading images dynamically from a CDN
